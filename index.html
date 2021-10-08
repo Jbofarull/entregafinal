@@ -198,13 +198,13 @@
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "line",
+                type: "bar",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["Chile", "México", "Uruguay", "Ecuador", " Panamá "],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
+                            label: "Indice de competividad global 2018",
+                            data: [75, 49, 59, 62, 66],
                             backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
                             borderWidth: 1,
                         },
